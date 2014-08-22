@@ -9,6 +9,7 @@ Technologies:
 - CSS3 + SASS
 - Javascript + jQuery
 - Bootstrap
+- FontAwesome
 
 ####Objectives
 - Wireframing

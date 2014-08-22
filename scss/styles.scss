@@ -1,2 +1,54 @@
 //Main Slider
 @import "styles/slider";
+
+// COLORS
+$blue-color: #2a6496;
+$gray-color: #EDEDF3;
+
+// NAV
+.nav-icons
+{	
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+ul.nav 
+{
+	.home
+	{
+		a:before
+		{
+			@extend .nav-icons;
+			content: "\f015";
+		}
+	}
+	.about
+	{
+		a:before
+		{
+			@extend .nav-icons;
+			content: "\f129";
+		}
+	}
+	.blog
+	{
+		a:before
+		{
+			@extend .nav-icons;
+			content: "\f040";
+		}
+	}
+	.contact
+	{
+		a:before
+		{
+			@extend .nav-icons;
+			content: "\f0e0";
+		}
+	}
+}
+.carousel {margin-bottom: 0px;}
+.full {
+background: $gray-color;
+padding-top: 60px;
+}
+h2 {color: $blue-color;}
